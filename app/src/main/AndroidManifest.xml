@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aljakarti.achyar.apehebu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LayerUtama"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Layer_hb"
+            android:label="@string/title_activity_layer_hb"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LayerBuah"
+            android:label="Buah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LayerHewan"
+            android:label="Hewan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailBuah"
+            android:label="@string/title_activity_detail_buah"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahAlpukat"
+            android:label="ALPUKAT"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahAnggur"
+            android:label="ANGGUR"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahApel"
+            android:label="APEL"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahCherry"
+            android:label="CHERRY"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahDurian"
+            android:label="DURIAN"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahJambuBiji"
+            android:label="JAMBU BIJI"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahJambuMete"
+            android:label="JAMBU METE"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahJeruk"
+            android:label="JERUK"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahMangga"
+            android:label="MANGGA"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahManggis"
+            android:label="MANGGIS"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahNanas"
+            android:label="NANAS"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahPisang"
+            android:label="PISANG"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahSemangka"
+            android:label="SEMANGKA"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BuahStrawberry"
+            android:label="STRAWBERRY"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanAyam"
+            android:label="AYAM"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanBebek"
+            android:label="BEBEK"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanBeruang"
+            android:label="BERUANG"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanBurungHantu"
+            android:label="BURUNG HANTU"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanHarimau"
+            android:label="HARIMAU"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanIkan"
+            android:label="IKAN"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanKambing"
+            android:label="KAMBING"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanKera"
+            android:label="KERA"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanKuraKura"
+            android:label="KURA-KURA"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanRusa"
+            android:label="RUSA"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanSapi"
+            android:label="SAPI"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HewanUlar"
+            android:label="ULAR"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

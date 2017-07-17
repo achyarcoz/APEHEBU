@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APEHEBU</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_layer_hb">layer_hb</string>
+    <string name="title_activity_layer_buah">LayerBuah</string>
+    <string name="title_activity_layer_hewan">LayerHewan</string>
+    <string name="title_activity_detail_buah">DetailBuah</string>
+</resources>
